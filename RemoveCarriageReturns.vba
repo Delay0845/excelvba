@@ -1,7 +1,7 @@
 Sub RemoveCarriageReturns()
 	Dim MyRange As Range
 
-	Application.ScreenUpdating = False
+	Application.ScreenUpdating = False 'Turns off screen updates so your window isn't constantly trying to keep up with your commands; extremely helpful for performance improvements'
 	Application.Calculation = xlCalculationManual
 	Application.EnableEvents = False
 
