@@ -1,3 +1,4 @@
+Sub RemoveEmptyColumns()
 'Remove_Empty_Columns Macro
 ' A macro that autmatically removes any empty columns (50 per run) in a worksheet.
 '
